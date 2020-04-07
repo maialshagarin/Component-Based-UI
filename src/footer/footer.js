@@ -1,7 +1,13 @@
-function Header(){
-return(
-    <>
-    <h1> Mai cool react app</h1>
-    </>
-)
+import React from 'react';
+
+class Footer extends React.Component {
+    render() {
+        return (
+            <footer>
+                @mai-2020
+            </footer>
+        );
+    };
 }
+
+export default Footer;
