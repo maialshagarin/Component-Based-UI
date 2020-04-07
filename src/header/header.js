@@ -1,19 +1,19 @@
 import React from 'react';
 
 class Header extends React.Component {
-    render() {
-        return (
-            <>
-            <header>
+  render() {
+    return (
+      <>
+        <header>
 
-                <h1>
+          <h1>
                     Counter : simple react app using class extends to component
-                </h1>
+          </h1>
                 
-            </header>
-            </>
-        )
-    }
+        </header>
+      </>
+    );
+  }
 }
 
 export default Header;

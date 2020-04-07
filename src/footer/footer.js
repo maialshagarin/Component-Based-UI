@@ -1,13 +1,13 @@
 import React from 'react';
 
 class Footer extends React.Component {
-    render() {
-        return (
-            <footer>
+  render() {
+    return (
+      <footer>
                 @mai-2020
-            </footer>
-        );
-    };
+      </footer>
+    );
+  }
 }
 
 export default Footer;
